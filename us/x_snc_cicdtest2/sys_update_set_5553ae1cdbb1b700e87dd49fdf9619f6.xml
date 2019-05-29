@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-05-29 21:09:36">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="cicdtest2">8e2211badbe57300e87dd49fdf9619e4</application>
+<application_name>cicdtest2</application_name>
+<application_scope>x_snc_cicdtest2</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Automatically created by CICD Process</description>
+<inserted/>
+<name>cicdtest2 – 1.0.0</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>5553ae1cdbb1b700e87dd49fdf9619f6</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-29 21:09:35</sys_created_on>
+<sys_id>0a63eed8dbb1b700e87dd49fdf961937</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-29 21:09:35</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="cicdtest2">8e2211badbe57300e87dd49fdf9619e4</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_173295badbe57300e87dd49fdf961935</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_snc_cicdtest2.testcicd&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;testing 234&lt;/description&gt;&lt;name&gt;testcicd&lt;/name&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Class Description
+ * 
+ * @class 
+ * @author System Administrator [admin]
+ * @memberof x_snc_cicdtest2.module:sys_script_include
+ */
+//new code test here
+var testcicd = Class.create();
+testcicd.prototype = /** @lends x_snc_cicdtest2.module:sys_script_include.testcicd.prototype */ {
+    /**
+     * Description
+     * 
+     * @returns {undefined}
+     */
+    initialize: function() {
+    },
+
+    type: 'testcicd'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-05-24 23:24:24&lt;/sys_created_on&gt;&lt;sys_id&gt;173295badbe57300e87dd49fdf961935&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;testcicd&lt;/sys_name&gt;&lt;sys_package display_value="cicdtest2" source="x_snc_cicdtest2"&gt;8e2211badbe57300e87dd49fdf9619e4&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="cicdtest2"&gt;8e2211badbe57300e87dd49fdf9619e4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_173295badbe57300e87dd49fdf961935&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-05-29 17:19:03&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>677145223</payload_hash>
+<remote_update_set display_value="cicdtest2 – 1.0.0">0a63eed8dbb1b700e87dd49fdf961937</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-29 21:09:35</sys_created_on>
+<sys_id>8e63eed8dbb1b700e87dd49fdf961937</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16b056cfa7d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-29 21:09:35</sys_updated_on>
+<table/>
+<target_name>testcicd</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>5d53ae1c09b1b700dbf96f97b24458f9</update_guid>
+<update_guid_history>5d53ae1c09b1b700dbf96f97b24458f9:677145223,74aee51c93fd770064341176a19a4d9a:677145223,0324e594c3fd77006c8ac552d9ab4a72:-1830780838,f484c11c527d7700c032e7cde6e080f5:837614998,2834113e59e57300a957f2e404344ed6:1160865330,5552d5baf3e573000d72f3392593ad7a:806731607,4052d5baece5730029efe06dcc800f39:581651672</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="cicdtest2">8e2211badbe57300e87dd49fdf9619e4</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_8e2211badbe57300e87dd49fdf9619e4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><can_edit_in_studio>false</can_edit_in_studio><enforce_license>none</enforce_license><js_level>helsinki_es5</js_level><licensable>true</licensable><license_category>none</license_category><license_model>none</license_model><logo/><menu/><name>cicdtest2</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_snc_cicdtest2</scope><scoped_administration>false</scoped_administration><short_description/><source>x_snc_cicdtest2</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2019-05-24 23:23:44</sys_created_on><sys_id>8e2211badbe57300e87dd49fdf9619e4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-05-24 23:23:44</sys_updated_on><template/><trackable>true</trackable><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app></record_update>]]></payload>
+<payload_hash>-1702372669</payload_hash>
+<remote_update_set display_value="cicdtest2 – 1.0.0">0a63eed8dbb1b700e87dd49fdf961937</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-05-29 21:09:35</sys_created_on>
+<sys_id>ca63eed8dbb1b700e87dd49fdf961937</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16b056cfa5d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-05-29 21:09:35</sys_updated_on>
+<table/>
+<target_name>cicdtest2</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid>1553ae1c07b1b7008cce167398ffe8f8</update_guid>
+<update_guid_history>1553ae1c07b1b7008cce167398ffe8f8:-1702372669,da2215bae8e57300c3e7da0b197b3311:-1702372669</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
