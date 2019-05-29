@@ -1,0 +1,24 @@
+{
+  "access": "package_private",
+  "active": true,
+  "api_name": "x_snc_cicdtest2.testcicd",
+  "caller_access": null,
+  "client_callable": false,
+  "description": "testing 234",
+  "name": "testcicd",
+  "script": {
+    "____see": "sn\\cicdtest2\\Script Include\\active_true\\x_snc_cicdtest2.testcicd.js"
+  },
+  "sys_class_name": "sys_script_include",
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-05-24 23:24:24",
+  "sys_id": "173295badbe57300e87dd49fdf961935",
+  "sys_mod_count": 5,
+  "sys_name": "testcicd",
+  "sys_package": "8e2211badbe57300e87dd49fdf9619e4",
+  "sys_policy": "read",
+  "sys_scope": "8e2211badbe57300e87dd49fdf9619e4",
+  "sys_update_name": "sys_script_include_173295badbe57300e87dd49fdf961935",
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-05-29 17:19:03"
+}
